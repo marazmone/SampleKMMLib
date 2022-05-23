@@ -1,5 +1,5 @@
-framework module shared {
-    umbrella header "shared.h"
+framework module SampleKMM {
+    umbrella header "SampleKMM.h"
 
     export *
     module * { export * }

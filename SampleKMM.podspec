@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name = 'SampleKMM'
-  spec.version = '1.0.1'
+  spec.version = '1.0.2'
   spec.homepage = 'https://www.cocoapods.org'
   spec.source = { :git => "git@github.com:marazmone/SampleKMMLib.git", :tag => "#{spec.version}" }
   spec.authors = 'Serhii Hulenko'

@@ -6,9 +6,9 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSValue.h>
 
-@class SKMMRocketLaunchEntitys, SKMMLaunchesModule, SKMMLaunchesUseCase, SKMMKotlinUnit, SKMMLinksEntityCompanion, SKMMRocketEntityCompanion, SKMMRocketLaunchEntitysCompanion, SKMMLinksEntity, SKMMRocketEntity, SKMMKotlinThrowable, SKMMKotlinArray<T>, SKMMKotlinException, SKMMKotlinRuntimeException, SKMMKotlinIllegalStateException, SKMMKotlinx_serialization_coreSerializersModule, SKMMKotlinx_serialization_coreSerialKind, SKMMKotlinNothing;
+@class SKMMRocketLaunchEntitys, SKMMLaunchesModule, SKMMLaunchesUseCase, SKMMViewModel, SKMMActionError, SKMMActionState, SKMMActionResourceCompanion, SKMMActionResource<__covariant T>, SKMMActionStateEMPTY, SKMMActionStateERROR, SKMMActionStateSUCCESS, SKMMKotlinUnit, SKMMLinksEntityCompanion, SKMMRocketEntityCompanion, SKMMRocketLaunchEntitysCompanion, SKMMLinksEntity, SKMMRocketEntity, SKMMKotlinThrowable, SKMMKotlinArray<T>, SKMMKotlinException, SKMMKotlinRuntimeException, SKMMKotlinIllegalStateException, SKMMKotlinx_serialization_coreSerializersModule, SKMMKotlinx_serialization_coreSerialKind, SKMMKotlinNothing;
 
-@protocol SKMMLaunchesRepository, SKMMKotlinx_serialization_coreKSerializer, SKMMKotlinx_serialization_coreEncoder, SKMMKotlinx_serialization_coreSerialDescriptor, SKMMKotlinx_serialization_coreSerializationStrategy, SKMMKotlinx_serialization_coreDecoder, SKMMKotlinx_serialization_coreDeserializationStrategy, SKMMKotlinIterator, SKMMKotlinx_serialization_coreCompositeEncoder, SKMMKotlinAnnotation, SKMMKotlinx_serialization_coreCompositeDecoder, SKMMKotlinx_serialization_coreSerializersModuleCollector, SKMMKotlinKClass, SKMMKotlinKDeclarationContainer, SKMMKotlinKAnnotatedElement, SKMMKotlinKClassifier;
+@protocol SKMMLaunchesRepository, SKMMKotlinx_coroutines_coreCoroutineScope, SKMMKotlinx_coroutines_coreSharedFlow, SKMMKotlinx_serialization_coreKSerializer, SKMMProgressDelegate, SKMMKotlinx_coroutines_coreMutableStateFlow, SKMMKotlinCoroutineContext, SKMMKotlinx_coroutines_coreFlowCollector, SKMMKotlinx_coroutines_coreFlow, SKMMKotlinx_serialization_coreEncoder, SKMMKotlinx_serialization_coreSerialDescriptor, SKMMKotlinx_serialization_coreSerializationStrategy, SKMMKotlinx_serialization_coreDecoder, SKMMKotlinx_serialization_coreDeserializationStrategy, SKMMKotlinx_coroutines_coreStateFlow, SKMMKotlinx_coroutines_coreMutableSharedFlow, SKMMKotlinIterator, SKMMKotlinCoroutineContextElement, SKMMKotlinCoroutineContextKey, SKMMKotlinx_serialization_coreCompositeEncoder, SKMMKotlinAnnotation, SKMMKotlinx_serialization_coreCompositeDecoder, SKMMKotlinx_serialization_coreSerializersModuleCollector, SKMMKotlinKClass, SKMMKotlinKDeclarationContainer, SKMMKotlinKAnnotatedElement, SKMMKotlinKClassifier;
 
 NS_ASSUME_NONNULL_BEGIN
 #pragma clang diagnostic push
@@ -193,6 +193,115 @@ __attribute__((swift_name("LaunchesModule")))
 @property (readonly) SKMMLaunchesUseCase *launchesUseCase __attribute__((swift_name("launchesUseCase")));
 @end;
 
+__attribute__((swift_name("ViewModel")))
+@interface SKMMViewModel : SKMMBase
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (void)onCleared __attribute__((swift_name("onCleared()")));
+@property (readonly) id<SKMMKotlinx_coroutines_coreCoroutineScope> viewModelScope __attribute__((swift_name("viewModelScope")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("MainViewModel")))
+@interface SKMMMainViewModel : SKMMViewModel
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (void)getLaunches __attribute__((swift_name("getLaunches()")));
+@property (readonly) id<SKMMKotlinx_coroutines_coreSharedFlow> launchesLiveData __attribute__((swift_name("launchesLiveData")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ActionError")))
+@interface SKMMActionError : SKMMBase
+- (instancetype)initWithMessage:(NSString * _Nullable)message code:(int32_t)code __attribute__((swift_name("init(message:code:)"))) __attribute__((objc_designated_initializer));
+- (NSString * _Nullable)component1 __attribute__((swift_name("component1()")));
+- (int32_t)component2 __attribute__((swift_name("component2()")));
+- (SKMMActionError *)doCopyMessage:(NSString * _Nullable)message code:(int32_t)code __attribute__((swift_name("doCopy(message:code:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) int32_t code __attribute__((swift_name("code")));
+@property (readonly) NSString * _Nullable message __attribute__((swift_name("message")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ActionResource")))
+@interface SKMMActionResource<__covariant T> : SKMMBase
+- (instancetype)initWithState:(SKMMActionState *)state data:(T _Nullable)data error:(SKMMActionError * _Nullable)error __attribute__((swift_name("init(state:data:error:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) SKMMActionResourceCompanion *companion __attribute__((swift_name("companion")));
+- (SKMMActionState *)component1 __attribute__((swift_name("component1()")));
+- (T _Nullable)component2 __attribute__((swift_name("component2()")));
+- (SKMMActionError * _Nullable)component3 __attribute__((swift_name("component3()")));
+- (SKMMActionResource<T> *)doCopyState:(SKMMActionState *)state data:(T _Nullable)data error:(SKMMActionError * _Nullable)error __attribute__((swift_name("doCopy(state:data:error:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) T _Nullable data __attribute__((swift_name("data")));
+@property (readonly) SKMMActionError * _Nullable error __attribute__((swift_name("error")));
+@property (readonly) SKMMActionState *state __attribute__((swift_name("state")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ActionResourceCompanion")))
+@interface SKMMActionResourceCompanion : SKMMBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) SKMMActionResourceCompanion *shared __attribute__((swift_name("shared")));
+- (SKMMActionResource<id> *)empty __attribute__((swift_name("empty()")));
+- (SKMMActionResource<id> *)errorData:(id _Nullable)data errorMessage:(NSString *)errorMessage code:(int32_t)code __attribute__((swift_name("error(data:errorMessage:code:)")));
+- (SKMMActionResource<id> *)successData:(id _Nullable)data __attribute__((swift_name("success(data:)")));
+@end;
+
+__attribute__((swift_name("ActionState")))
+@interface SKMMActionState : SKMMBase
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ActionState.EMPTY")))
+@interface SKMMActionStateEMPTY : SKMMActionState
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)eMPTY __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) SKMMActionStateEMPTY *shared __attribute__((swift_name("shared")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ActionState.ERROR")))
+@interface SKMMActionStateERROR : SKMMActionState
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)eRROR __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) SKMMActionStateERROR *shared __attribute__((swift_name("shared")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ActionState.LOADING")))
+@interface SKMMActionStateLOADING : SKMMActionState
+- (instancetype)initWithIsRemote:(BOOL)isRemote __attribute__((swift_name("init(isRemote:)"))) __attribute__((objc_designated_initializer));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) BOOL isRemote __attribute__((swift_name("isRemote")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ActionState.SUCCESS")))
+@interface SKMMActionStateSUCCESS : SKMMActionState
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)sUCCESS __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) SKMMActionStateSUCCESS *shared __attribute__((swift_name("shared")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@end;
+
+__attribute__((swift_name("ProgressDelegate")))
+@protocol SKMMProgressDelegate
+@required
+- (void)hide __attribute__((swift_name("hide()")));
+- (void)show __attribute__((swift_name("show()")));
+@end;
+
 __attribute__((swift_name("LaunchesCacheDataSource")))
 @protocol SKMMLaunchesCacheDataSource
 @required
@@ -294,6 +403,19 @@ __attribute__((swift_name("RocketLaunchEntitys.Companion")))
 - (id<SKMMKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end;
 
+@interface SKMMActionResource (Extensions)
+- (void)doOnResultProgressDelegate:(id<SKMMProgressDelegate> _Nullable)progressDelegate onLoading:(void (^ _Nullable)(SKMMBoolean *))onLoading onSuccess:(void (^ _Nullable)(id _Nullable))onSuccess onError:(void (^ _Nullable)(NSString *, id _Nullable))onError onFinish:(void (^ _Nullable)(void))onFinish onEmpty:(void (^ _Nullable)(void))onEmpty __attribute__((swift_name("doOnResult(progressDelegate:onLoading:onSuccess:onError:onFinish:onEmpty:)")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("LiveDataExtKt")))
+@interface SKMMLiveDataExtKt : SKMMBase
++ (void)setEmpty:(id<SKMMKotlinx_coroutines_coreMutableStateFlow>)receiver __attribute__((swift_name("setEmpty(_:)")));
++ (void)setError:(id<SKMMKotlinx_coroutines_coreMutableStateFlow>)receiver message:(NSString * _Nullable)message code:(int32_t)code __attribute__((swift_name("setError(_:message:code:)")));
++ (void)setLoading:(id<SKMMKotlinx_coroutines_coreMutableStateFlow>)receiver isRemote:(BOOL)isRemote __attribute__((swift_name("setLoading(_:isRemote:)")));
++ (void)setSuccess:(id<SKMMKotlinx_coroutines_coreMutableStateFlow>)receiver data:(id _Nullable)data __attribute__((swift_name("setSuccess(_:data:)")));
+@end;
+
 __attribute__((swift_name("KotlinThrowable")))
 @interface SKMMKotlinThrowable : SKMMBase
 - (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
@@ -345,6 +467,29 @@ __attribute__((swift_name("KotlinCancellationException")))
 - (instancetype)initWithCause:(SKMMKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
 @end;
 
+__attribute__((swift_name("Kotlinx_coroutines_coreCoroutineScope")))
+@protocol SKMMKotlinx_coroutines_coreCoroutineScope
+@required
+@property (readonly) id<SKMMKotlinCoroutineContext> coroutineContext __attribute__((swift_name("coroutineContext")));
+@end;
+
+__attribute__((swift_name("Kotlinx_coroutines_coreFlow")))
+@protocol SKMMKotlinx_coroutines_coreFlow
+@required
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)collectCollector:(id<SKMMKotlinx_coroutines_coreFlowCollector>)collector completionHandler:(void (^)(SKMMKotlinUnit * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("collect(collector:completionHandler:)")));
+@end;
+
+__attribute__((swift_name("Kotlinx_coroutines_coreSharedFlow")))
+@protocol SKMMKotlinx_coroutines_coreSharedFlow <SKMMKotlinx_coroutines_coreFlow>
+@required
+@property (readonly) NSArray<id> *replayCache __attribute__((swift_name("replayCache")));
+@end;
+
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("KotlinUnit")))
 @interface SKMMKotlinUnit : SKMMBase
@@ -374,6 +519,38 @@ __attribute__((swift_name("Kotlinx_serialization_coreKSerializer")))
 @required
 @end;
 
+__attribute__((swift_name("Kotlinx_coroutines_coreStateFlow")))
+@protocol SKMMKotlinx_coroutines_coreStateFlow <SKMMKotlinx_coroutines_coreSharedFlow>
+@required
+@property (readonly) id _Nullable value __attribute__((swift_name("value")));
+@end;
+
+__attribute__((swift_name("Kotlinx_coroutines_coreFlowCollector")))
+@protocol SKMMKotlinx_coroutines_coreFlowCollector
+@required
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)emitValue:(id _Nullable)value completionHandler:(void (^)(SKMMKotlinUnit * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("emit(value:completionHandler:)")));
+@end;
+
+__attribute__((swift_name("Kotlinx_coroutines_coreMutableSharedFlow")))
+@protocol SKMMKotlinx_coroutines_coreMutableSharedFlow <SKMMKotlinx_coroutines_coreSharedFlow, SKMMKotlinx_coroutines_coreFlowCollector>
+@required
+- (void)resetReplayCache __attribute__((swift_name("resetReplayCache()")));
+- (BOOL)tryEmitValue:(id _Nullable)value __attribute__((swift_name("tryEmit(value:)")));
+@property (readonly) id<SKMMKotlinx_coroutines_coreStateFlow> subscriptionCount __attribute__((swift_name("subscriptionCount")));
+@end;
+
+__attribute__((swift_name("Kotlinx_coroutines_coreMutableStateFlow")))
+@protocol SKMMKotlinx_coroutines_coreMutableStateFlow <SKMMKotlinx_coroutines_coreStateFlow, SKMMKotlinx_coroutines_coreMutableSharedFlow>
+@required
+- (BOOL)compareAndSetExpect:(id _Nullable)expect update:(id _Nullable)update __attribute__((swift_name("compareAndSet(expect:update:)")));
+- (void)setValue:(id _Nullable)value __attribute__((swift_name("setValue(_:)")));
+@end;
+
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("KotlinArray")))
 @interface SKMMKotlinArray<T> : SKMMBase
@@ -384,6 +561,15 @@ __attribute__((swift_name("KotlinArray")))
 - (id<SKMMKotlinIterator>)iterator __attribute__((swift_name("iterator()")));
 - (void)setIndex:(int32_t)index value:(T _Nullable)value __attribute__((swift_name("set(index:value:)")));
 @property (readonly) int32_t size __attribute__((swift_name("size")));
+@end;
+
+__attribute__((swift_name("KotlinCoroutineContext")))
+@protocol SKMMKotlinCoroutineContext
+@required
+- (id _Nullable)foldInitial:(id _Nullable)initial operation:(id _Nullable (^)(id _Nullable, id<SKMMKotlinCoroutineContextElement>))operation __attribute__((swift_name("fold(initial:operation:)")));
+- (id<SKMMKotlinCoroutineContextElement> _Nullable)getKey:(id<SKMMKotlinCoroutineContextKey>)key __attribute__((swift_name("get(key:)")));
+- (id<SKMMKotlinCoroutineContext>)minusKeyKey:(id<SKMMKotlinCoroutineContextKey>)key __attribute__((swift_name("minusKey(key:)")));
+- (id<SKMMKotlinCoroutineContext>)plusContext:(id<SKMMKotlinCoroutineContext>)context __attribute__((swift_name("plus(context:)")));
 @end;
 
 __attribute__((swift_name("Kotlinx_serialization_coreEncoder")))
@@ -452,6 +638,17 @@ __attribute__((swift_name("KotlinIterator")))
 @required
 - (BOOL)hasNext __attribute__((swift_name("hasNext()")));
 - (id _Nullable)next __attribute__((swift_name("next()")));
+@end;
+
+__attribute__((swift_name("KotlinCoroutineContextElement")))
+@protocol SKMMKotlinCoroutineContextElement <SKMMKotlinCoroutineContext>
+@required
+@property (readonly) id<SKMMKotlinCoroutineContextKey> key __attribute__((swift_name("key")));
+@end;
+
+__attribute__((swift_name("KotlinCoroutineContextKey")))
+@protocol SKMMKotlinCoroutineContextKey
+@required
 @end;
 
 __attribute__((swift_name("Kotlinx_serialization_coreCompositeEncoder")))

@@ -6,9 +6,9 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSValue.h>
 
-@class SKMMEventsDispatcher<ListenerType>, SKMMRocketLaunchEntitys, SKMMResultWrapper<__covariant T>, SKMMLaunchesModule, SKMMLaunchesUseCase, SKMMViewModel, SKMMKotlinThrowable, SKMMKotlinArray<T>, SKMMHttpErrorLog, SKMMResultWrapperErrorHandler, SKMMResultWrapperError, SKMMResultWrapperSuccess<__covariant T>, SKMMResultWrapperErrorServerError, SKMMResultWrapperErrorClientError, SKMMResultWrapperErrorNetworkError, SKMMResultWrapperErrorUnknownError, SKMMKotlinNothing, SKMMResultWrapperErrorCancellationError, SKMMKotlinUnit, SKMMLinksEntityCompanion, SKMMRocketEntityCompanion, SKMMRocketLaunchEntitysCompanion, SKMMLinksEntity, SKMMRocketEntity, SKMMKtor_client_coreHttpResponse, SKMMKotlinException, SKMMKotlinRuntimeException, SKMMKotlinIllegalStateException, SKMMKtor_client_coreHttpClientCall, SKMMKtor_utilsGMTDate, SKMMKtor_httpHttpStatusCode, SKMMKtor_httpHttpProtocolVersion, SKMMKotlinx_serialization_coreSerializersModule, SKMMKotlinx_serialization_coreSerialKind, SKMMKtor_client_coreHttpClient, SKMMKtor_client_coreHttpRequestData, SKMMKtor_client_coreHttpResponseData, SKMMKtor_client_coreHttpClientCallCompanion, SKMMKtor_utilsTypeInfo, SKMMKtor_ioMemory, SKMMKtor_ioChunkBuffer, SKMMKotlinByteArray, SKMMKtor_ioBuffer, SKMMKtor_ioByteReadPacket, SKMMKtor_utilsGMTDateCompanion, SKMMKtor_utilsWeekDay, SKMMKtor_utilsMonth, SKMMKtor_httpHttpStatusCodeCompanion, SKMMKtor_httpHttpProtocolVersionCompanion, SKMMKtor_client_coreHttpClientEngineConfig, SKMMKtor_client_coreHttpClientConfig<T>, SKMMKtor_eventsEvents, SKMMKtor_client_coreHttpReceivePipeline, SKMMKtor_client_coreHttpRequestPipeline, SKMMKtor_client_coreHttpResponsePipeline, SKMMKtor_client_coreHttpSendPipeline, SKMMKtor_httpUrl, SKMMKtor_httpHttpMethod, SKMMKtor_httpOutgoingContent, SKMMKtor_utilsAttributeKey<T>, SKMMKtor_ioMemoryCompanion, SKMMKtor_ioBufferCompanion, SKMMKtor_ioChunkBufferCompanion, SKMMKotlinByteIterator, SKMMKtor_ioInputCompanion, SKMMKtor_ioInput, SKMMKtor_ioByteReadPacketCompanion, SKMMKotlinEnumCompanion, SKMMKotlinEnum<E>, SKMMKtor_utilsWeekDayCompanion, SKMMKtor_utilsMonthCompanion, SKMMKotlinx_coroutines_coreCoroutineDispatcher, SKMMKtor_client_coreProxyConfig, SKMMKtor_eventsEventDefinition<T>, SKMMKtor_utilsPipelinePhase, SKMMKtor_utilsPipeline<TSubject, TContext>, SKMMKtor_client_coreHttpReceivePipelinePhases, SKMMKtor_client_coreHttpRequestPipelinePhases, SKMMKtor_client_coreHttpRequestBuilder, SKMMKtor_client_coreHttpResponsePipelinePhases, SKMMKtor_client_coreHttpResponseContainer, SKMMKtor_client_coreHttpSendPipelinePhases, SKMMKtor_httpUrlCompanion, SKMMKtor_httpURLProtocol, SKMMKtor_httpHttpMethodCompanion, SKMMKtor_httpContentType, SKMMKotlinCancellationException, SKMMKotlinKTypeProjection, SKMMKotlinAbstractCoroutineContextElement, SKMMKotlinx_coroutines_coreCoroutineDispatcherKey, SKMMKtor_httpHeadersBuilder, SKMMKtor_client_coreHttpRequestBuilderCompanion, SKMMKtor_httpURLBuilder, SKMMKtor_httpURLProtocolCompanion, SKMMKtor_httpHeaderValueParam, SKMMKtor_httpHeaderValueWithParametersCompanion, SKMMKtor_httpHeaderValueWithParameters, SKMMKtor_httpContentTypeCompanion, SKMMKotlinKVariance, SKMMKotlinKTypeProjectionCompanion, SKMMKotlinAbstractCoroutineContextKey<B, E>, SKMMKtor_utilsStringValuesBuilderImpl, SKMMKtor_httpURLBuilderCompanion, SKMMKotlinx_coroutines_coreAtomicDesc, SKMMKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp, SKMMKotlinx_coroutines_coreAtomicOp<__contravariant T>, SKMMKotlinx_coroutines_coreOpDescriptor, SKMMKotlinx_coroutines_coreLockFreeLinkedListNode, SKMMKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc, SKMMKotlinx_coroutines_coreLockFreeLinkedListNodeAddLastDesc<T>, SKMMKotlinx_coroutines_coreLockFreeLinkedListNodeRemoveFirstDesc<T>;
+@class SKMMEventsDispatcher<ListenerType>, SKMMRocketLaunchEntitys, SKMMResultWrapper<__covariant T>, SKMMViewModel, SKMMKoin_coreKoin, SKMMKotlinThrowable, SKMMKotlinArray<T>, SKMMHttpErrorLog, SKMMResultWrapperErrorHandler, SKMMResultWrapperError, SKMMResultWrapperSuccess<__covariant T>, SKMMResultWrapperErrorServerError, SKMMResultWrapperErrorClientError, SKMMResultWrapperErrorNetworkError, SKMMResultWrapperErrorUnknownError, SKMMKotlinNothing, SKMMResultWrapperErrorCancellationError, SKMMKotlinUnit, SKMMLinksEntityCompanion, SKMMRocketEntityCompanion, SKMMRocketLaunchEntitysCompanion, SKMMLinksEntity, SKMMRocketEntity, SKMMKoin_coreModule, SKMMKtor_client_coreHttpResponse, SKMMKotlinException, SKMMKotlinRuntimeException, SKMMKotlinIllegalStateException, SKMMKoin_coreScope, SKMMKoin_coreParametersHolder, SKMMKotlinLazyThreadSafetyMode, SKMMKoin_coreLogger, SKMMKoin_coreInstanceRegistry, SKMMKoin_corePropertyRegistry, SKMMKoin_coreScopeRegistry, SKMMKoin_coreInstanceFactory<T>, SKMMKotlinPair<__covariant A, __covariant B>, SKMMKoin_coreScopeDSL, SKMMKoin_coreSingleInstanceFactory<T>, SKMMKtor_client_coreHttpClientCall, SKMMKtor_utilsGMTDate, SKMMKtor_httpHttpStatusCode, SKMMKtor_httpHttpProtocolVersion, SKMMKoin_coreLockable, SKMMKoin_coreParametersHolderCompanion, SKMMKotlinEnumCompanion, SKMMKotlinEnum<E>, SKMMKoin_coreLevel, SKMMKoin_coreScopeRegistryCompanion, SKMMKotlinx_serialization_coreSerializersModule, SKMMKotlinx_serialization_coreSerialKind, SKMMKoin_coreBeanDefinition<T>, SKMMKoin_coreInstanceFactoryCompanion, SKMMKoin_coreInstanceContext, SKMMKtor_client_coreHttpClient, SKMMKtor_client_coreHttpRequestData, SKMMKtor_client_coreHttpResponseData, SKMMKtor_client_coreHttpClientCallCompanion, SKMMKtor_utilsTypeInfo, SKMMKtor_ioMemory, SKMMKtor_ioChunkBuffer, SKMMKotlinByteArray, SKMMKtor_ioBuffer, SKMMKtor_ioByteReadPacket, SKMMKtor_utilsGMTDateCompanion, SKMMKtor_utilsWeekDay, SKMMKtor_utilsMonth, SKMMKtor_httpHttpStatusCodeCompanion, SKMMKtor_httpHttpProtocolVersionCompanion, SKMMKoin_coreKind, SKMMKoin_coreCallbacks<T>, SKMMKtor_client_coreHttpClientEngineConfig, SKMMKtor_client_coreHttpClientConfig<T>, SKMMKtor_eventsEvents, SKMMKtor_client_coreHttpReceivePipeline, SKMMKtor_client_coreHttpRequestPipeline, SKMMKtor_client_coreHttpResponsePipeline, SKMMKtor_client_coreHttpSendPipeline, SKMMKtor_httpUrl, SKMMKtor_httpHttpMethod, SKMMKtor_httpOutgoingContent, SKMMKtor_utilsAttributeKey<T>, SKMMKtor_ioMemoryCompanion, SKMMKtor_ioBufferCompanion, SKMMKtor_ioChunkBufferCompanion, SKMMKotlinByteIterator, SKMMKtor_ioInputCompanion, SKMMKtor_ioInput, SKMMKtor_ioByteReadPacketCompanion, SKMMKtor_utilsWeekDayCompanion, SKMMKtor_utilsMonthCompanion, SKMMKotlinx_coroutines_coreCoroutineDispatcher, SKMMKtor_client_coreProxyConfig, SKMMKtor_eventsEventDefinition<T>, SKMMKtor_utilsPipelinePhase, SKMMKtor_utilsPipeline<TSubject, TContext>, SKMMKtor_client_coreHttpReceivePipelinePhases, SKMMKtor_client_coreHttpRequestPipelinePhases, SKMMKtor_client_coreHttpRequestBuilder, SKMMKtor_client_coreHttpResponsePipelinePhases, SKMMKtor_client_coreHttpResponseContainer, SKMMKtor_client_coreHttpSendPipelinePhases, SKMMKtor_httpUrlCompanion, SKMMKtor_httpURLProtocol, SKMMKtor_httpHttpMethodCompanion, SKMMKtor_httpContentType, SKMMKotlinCancellationException, SKMMKotlinKTypeProjection, SKMMKotlinAbstractCoroutineContextElement, SKMMKotlinx_coroutines_coreCoroutineDispatcherKey, SKMMKtor_httpHeadersBuilder, SKMMKtor_client_coreHttpRequestBuilderCompanion, SKMMKtor_httpURLBuilder, SKMMKtor_httpURLProtocolCompanion, SKMMKtor_httpHeaderValueParam, SKMMKtor_httpHeaderValueWithParametersCompanion, SKMMKtor_httpHeaderValueWithParameters, SKMMKtor_httpContentTypeCompanion, SKMMKotlinKVariance, SKMMKotlinKTypeProjectionCompanion, SKMMKotlinAbstractCoroutineContextKey<B, E>, SKMMKtor_utilsStringValuesBuilderImpl, SKMMKtor_httpURLBuilderCompanion, SKMMKotlinx_coroutines_coreAtomicDesc, SKMMKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp, SKMMKotlinx_coroutines_coreAtomicOp<__contravariant T>, SKMMKotlinx_coroutines_coreOpDescriptor, SKMMKotlinx_coroutines_coreLockFreeLinkedListNode, SKMMKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc, SKMMKotlinx_coroutines_coreLockFreeLinkedListNodeAddLastDesc<T>, SKMMKotlinx_coroutines_coreLockFreeLinkedListNodeRemoveFirstDesc<T>;
 
-@protocol SKMMKotlinx_coroutines_coreCoroutineScope, SKMMLaunchesRepository, SKMMMainViewModelEventListener, SKMMKotlinx_serialization_coreKSerializer, SKMMKotlinCoroutineContext, SKMMKotlinIterator, SKMMKotlinx_serialization_coreEncoder, SKMMKotlinx_serialization_coreSerialDescriptor, SKMMKotlinx_serialization_coreSerializationStrategy, SKMMKotlinx_serialization_coreDecoder, SKMMKotlinx_serialization_coreDeserializationStrategy, SKMMKtor_httpHeaders, SKMMKtor_httpHttpMessage, SKMMKtor_ioByteReadChannel, SKMMKotlinCoroutineContextElement, SKMMKotlinCoroutineContextKey, SKMMKotlinx_serialization_coreCompositeEncoder, SKMMKotlinAnnotation, SKMMKotlinx_serialization_coreCompositeDecoder, SKMMKotlinMapEntry, SKMMKtor_utilsStringValues, SKMMKtor_utilsAttributes, SKMMKtor_client_coreHttpRequest, SKMMKtor_ioReadSession, SKMMKotlinSuspendFunction1, SKMMKotlinAppendable, SKMMKotlinComparable, SKMMKotlinx_serialization_coreSerializersModuleCollector, SKMMKotlinKClass, SKMMKtor_ioCloseable, SKMMKtor_client_coreHttpClientEngine, SKMMKtor_client_coreHttpClientEngineCapability, SKMMKotlinx_coroutines_coreJob, SKMMKotlinKType, SKMMKtor_ioObjectPool, SKMMKotlinFunction, SKMMKotlinKDeclarationContainer, SKMMKotlinKAnnotatedElement, SKMMKotlinKClassifier, SKMMKtor_client_coreHttpClientPlugin, SKMMKotlinx_coroutines_coreDisposableHandle, SKMMKotlinSuspendFunction2, SKMMKtor_httpParameters, SKMMKotlinx_coroutines_coreChildHandle, SKMMKotlinx_coroutines_coreChildJob, SKMMKotlinSequence, SKMMKotlinx_coroutines_coreSelectClause0, SKMMKotlinContinuation, SKMMKotlinContinuationInterceptor, SKMMKotlinx_coroutines_coreRunnable, SKMMKtor_httpHttpMessageBuilder, SKMMKotlinx_coroutines_coreParentJob, SKMMKotlinx_coroutines_coreSelectInstance, SKMMKotlinSuspendFunction0, SKMMKtor_utilsStringValuesBuilder, SKMMKtor_httpParametersBuilder;
+@protocol SKMMKotlinx_coroutines_coreCoroutineScope, SKMMLaunchesRepository, SKMMKoin_coreKoinComponent, SKMMMainViewModelEventListener, SKMMKotlinx_serialization_coreKSerializer, SKMMKotlinCoroutineContext, SKMMKoin_coreKoinScopeComponent, SKMMKoin_coreQualifier, SKMMKotlinKClass, SKMMKotlinLazy, SKMMKotlinIterator, SKMMKotlinx_serialization_coreEncoder, SKMMKotlinx_serialization_coreSerialDescriptor, SKMMKotlinx_serialization_coreSerializationStrategy, SKMMKotlinx_serialization_coreDecoder, SKMMKotlinx_serialization_coreDeserializationStrategy, SKMMKtor_httpHeaders, SKMMKtor_httpHttpMessage, SKMMKtor_ioByteReadChannel, SKMMKotlinCoroutineContextElement, SKMMKotlinCoroutineContextKey, SKMMKoin_coreScopeCallback, SKMMKotlinKDeclarationContainer, SKMMKotlinKAnnotatedElement, SKMMKotlinKClassifier, SKMMKotlinComparable, SKMMKotlinx_serialization_coreCompositeEncoder, SKMMKotlinAnnotation, SKMMKotlinx_serialization_coreCompositeDecoder, SKMMKotlinMapEntry, SKMMKtor_utilsStringValues, SKMMKtor_utilsAttributes, SKMMKtor_client_coreHttpRequest, SKMMKtor_ioReadSession, SKMMKotlinSuspendFunction1, SKMMKotlinAppendable, SKMMKotlinx_serialization_coreSerializersModuleCollector, SKMMKtor_ioCloseable, SKMMKtor_client_coreHttpClientEngine, SKMMKtor_client_coreHttpClientEngineCapability, SKMMKotlinx_coroutines_coreJob, SKMMKotlinKType, SKMMKtor_ioObjectPool, SKMMKotlinFunction, SKMMKtor_client_coreHttpClientPlugin, SKMMKotlinx_coroutines_coreDisposableHandle, SKMMKotlinSuspendFunction2, SKMMKtor_httpParameters, SKMMKotlinx_coroutines_coreChildHandle, SKMMKotlinx_coroutines_coreChildJob, SKMMKotlinSequence, SKMMKotlinx_coroutines_coreSelectClause0, SKMMKotlinContinuation, SKMMKotlinContinuationInterceptor, SKMMKotlinx_coroutines_coreRunnable, SKMMKtor_httpHttpMessageBuilder, SKMMKotlinx_coroutines_coreParentJob, SKMMKotlinx_coroutines_coreSelectInstance, SKMMKotlinSuspendFunction0, SKMMKtor_utilsStringValuesBuilder, SKMMKtor_httpParametersBuilder;
 
 NS_ASSUME_NONNULL_BEGIN
 #pragma clang diagnostic push
@@ -207,19 +207,15 @@ __attribute__((swift_name("LaunchesUseCase")))
 - (void)executeWithCompletionHandler:(void (^)(SKMMResultWrapper<NSArray<SKMMRocketLaunchEntitys *> *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("execute(completionHandler:)")));
 @end;
 
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("LaunchesModule")))
-@interface SKMMLaunchesModule : SKMMBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)launchesModule __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) SKMMLaunchesModule *shared __attribute__((swift_name("shared")));
-@property (readonly) SKMMLaunchesUseCase *launchesUseCase __attribute__((swift_name("launchesUseCase")));
+__attribute__((swift_name("Koin_coreKoinComponent")))
+@protocol SKMMKoin_coreKoinComponent
+@required
+- (SKMMKoin_coreKoin *)getKoin __attribute__((swift_name("getKoin()")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("MainViewModel")))
-@interface SKMMMainViewModel : SKMMViewModel
+@interface SKMMMainViewModel : SKMMViewModel <SKMMKoin_coreKoinComponent>
 - (instancetype)initWithEventsDispatcher:(SKMMEventsDispatcher<id<SKMMMainViewModelEventListener>> *)eventsDispatcher __attribute__((swift_name("init(eventsDispatcher:)"))) __attribute__((objc_designated_initializer));
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 + (instancetype)new __attribute__((unavailable));
@@ -477,6 +473,36 @@ __attribute__((swift_name("RocketLaunchEntitys.Companion")))
 @end;
 
 __attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("DatasourceModuleKt")))
+@interface SKMMDatasourceModuleKt : SKMMBase
+@property (class, readonly) SKMMKoin_coreModule *datasourceModule __attribute__((swift_name("datasourceModule")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("RepositoryModuleKt")))
+@interface SKMMRepositoryModuleKt : SKMMBase
+@property (class, readonly) SKMMKoin_coreModule *repositoryModule __attribute__((swift_name("repositoryModule")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("UseCaseModuleKt")))
+@interface SKMMUseCaseModuleKt : SKMMBase
+@property (class, readonly) SKMMKoin_coreModule *useCaseModule __attribute__((swift_name("useCaseModule")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("KoinKt")))
+@interface SKMMKoinKt : SKMMBase
++ (void)koinInit __attribute__((swift_name("koinInit()")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ModuleKt")))
+@interface SKMMModuleKt : SKMMBase
++ (SKMMKoin_coreModule *)platformModule __attribute__((swift_name("platformModule()")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("ResultWrapperKt")))
 @interface SKMMResultWrapperKt : SKMMBase
 
@@ -530,6 +556,43 @@ __attribute__((swift_name("KotlinCancellationException")))
 @end;
 
 __attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Koin_coreKoin")))
+@interface SKMMKoin_coreKoin : SKMMBase
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (void)close __attribute__((swift_name("close()")));
+- (void)createEagerInstances __attribute__((swift_name("createEagerInstances()")));
+- (SKMMKoin_coreScope *)createScopeT:(id<SKMMKoin_coreKoinScopeComponent>)t __attribute__((swift_name("createScope(t:)")));
+- (SKMMKoin_coreScope *)createScopeScopeId:(NSString *)scopeId __attribute__((swift_name("createScope(scopeId:)")));
+- (SKMMKoin_coreScope *)createScopeScopeId:(NSString *)scopeId source:(id _Nullable)source __attribute__((swift_name("createScope(scopeId:source:)")));
+- (SKMMKoin_coreScope *)createScopeScopeId:(NSString *)scopeId qualifier:(id<SKMMKoin_coreQualifier>)qualifier source:(id _Nullable)source __attribute__((swift_name("createScope(scopeId:qualifier:source:)")));
+- (void)declareInstance:(id _Nullable)instance qualifier:(id<SKMMKoin_coreQualifier> _Nullable)qualifier secondaryTypes:(NSArray<id<SKMMKotlinKClass>> *)secondaryTypes allowOverride:(BOOL)allowOverride __attribute__((swift_name("declare(instance:qualifier:secondaryTypes:allowOverride:)")));
+- (void)deletePropertyKey:(NSString *)key __attribute__((swift_name("deleteProperty(key:)")));
+- (void)deleteScopeScopeId:(NSString *)scopeId __attribute__((swift_name("deleteScope(scopeId:)")));
+- (id _Nullable)getClazz:(id<SKMMKotlinKClass>)clazz qualifier:(id<SKMMKoin_coreQualifier> _Nullable)qualifier parameters:(SKMMKoin_coreParametersHolder *(^ _Nullable)(void))parameters __attribute__((swift_name("get(clazz:qualifier:parameters:)")));
+- (id)getQualifier:(id<SKMMKoin_coreQualifier> _Nullable)qualifier parameters:(SKMMKoin_coreParametersHolder *(^ _Nullable)(void))parameters __attribute__((swift_name("get(qualifier:parameters:)")));
+- (NSArray<id> *)getAll __attribute__((swift_name("getAll()")));
+- (SKMMKoin_coreScope *)getOrCreateScopeScopeId:(NSString *)scopeId __attribute__((swift_name("getOrCreateScope(scopeId:)")));
+- (SKMMKoin_coreScope *)getOrCreateScopeScopeId:(NSString *)scopeId qualifier:(id<SKMMKoin_coreQualifier>)qualifier source:(id _Nullable)source __attribute__((swift_name("getOrCreateScope(scopeId:qualifier:source:)")));
+- (id _Nullable)getOrNullClazz:(id<SKMMKotlinKClass>)clazz qualifier:(id<SKMMKoin_coreQualifier> _Nullable)qualifier parameters:(SKMMKoin_coreParametersHolder *(^ _Nullable)(void))parameters __attribute__((swift_name("getOrNull(clazz:qualifier:parameters:)")));
+- (id _Nullable)getOrNullQualifier:(id<SKMMKoin_coreQualifier> _Nullable)qualifier parameters:(SKMMKoin_coreParametersHolder *(^ _Nullable)(void))parameters __attribute__((swift_name("getOrNull(qualifier:parameters:)")));
+- (id _Nullable)getPropertyKey:(NSString *)key __attribute__((swift_name("getProperty(key:)")));
+- (id)getPropertyKey:(NSString *)key defaultValue:(id)defaultValue __attribute__((swift_name("getProperty(key:defaultValue:)")));
+- (SKMMKoin_coreScope *)getScopeScopeId:(NSString *)scopeId __attribute__((swift_name("getScope(scopeId:)")));
+- (SKMMKoin_coreScope * _Nullable)getScopeOrNullScopeId:(NSString *)scopeId __attribute__((swift_name("getScopeOrNull(scopeId:)")));
+- (id<SKMMKotlinLazy>)injectQualifier:(id<SKMMKoin_coreQualifier> _Nullable)qualifier mode:(SKMMKotlinLazyThreadSafetyMode *)mode parameters:(SKMMKoin_coreParametersHolder *(^ _Nullable)(void))parameters __attribute__((swift_name("inject(qualifier:mode:parameters:)")));
+- (id<SKMMKotlinLazy>)injectOrNullQualifier:(id<SKMMKoin_coreQualifier> _Nullable)qualifier mode:(SKMMKotlinLazyThreadSafetyMode *)mode parameters:(SKMMKoin_coreParametersHolder *(^ _Nullable)(void))parameters __attribute__((swift_name("injectOrNull(qualifier:mode:parameters:)")));
+- (void)loadModulesModules:(NSArray<SKMMKoin_coreModule *> *)modules allowOverride:(BOOL)allowOverride __attribute__((swift_name("loadModules(modules:allowOverride:)")));
+- (void)setPropertyKey:(NSString *)key value:(id)value __attribute__((swift_name("setProperty(key:value:)")));
+- (void)setupLoggerLogger:(SKMMKoin_coreLogger *)logger __attribute__((swift_name("setupLogger(logger:)")));
+- (void)unloadModulesModules:(NSArray<SKMMKoin_coreModule *> *)modules __attribute__((swift_name("unloadModules(modules:)")));
+@property (readonly) SKMMKoin_coreInstanceRegistry *instanceRegistry __attribute__((swift_name("instanceRegistry")));
+@property (readonly) SKMMKoin_coreLogger *logger __attribute__((swift_name("logger")));
+@property (readonly) SKMMKoin_corePropertyRegistry *propertyRegistry __attribute__((swift_name("propertyRegistry")));
+@property (readonly) SKMMKoin_coreScopeRegistry *scopeRegistry __attribute__((swift_name("scopeRegistry")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("KotlinArray")))
 @interface SKMMKotlinArray<T> : SKMMBase
 + (instancetype)arrayWithSize:(int32_t)size init:(T _Nullable (^)(SKMMInt *))init __attribute__((swift_name("init(size:init:)")));
@@ -575,6 +638,25 @@ __attribute__((swift_name("Kotlinx_serialization_coreKSerializer")))
 @required
 @end;
 
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Koin_coreModule")))
+@interface SKMMKoin_coreModule : SKMMBase
+- (instancetype)initWith_createdAtStart:(BOOL)_createdAtStart __attribute__((swift_name("init(_createdAtStart:)"))) __attribute__((objc_designated_initializer));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (SKMMKotlinPair<SKMMKoin_coreModule *, SKMMKoin_coreInstanceFactory<id> *> *)factoryQualifier:(id<SKMMKoin_coreQualifier> _Nullable)qualifier definition:(id _Nullable (^)(SKMMKoin_coreScope *, SKMMKoin_coreParametersHolder *))definition __attribute__((swift_name("factory(qualifier:definition:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (void)includesModule:(SKMMKotlinArray<SKMMKoin_coreModule *> *)module __attribute__((swift_name("includes(module:)")));
+- (void)includesModule_:(NSArray<SKMMKoin_coreModule *> *)module __attribute__((swift_name("includes(module_:)")));
+- (NSArray<SKMMKoin_coreModule *> *)plusModules:(NSArray<SKMMKoin_coreModule *> *)modules __attribute__((swift_name("plus(modules:)")));
+- (NSArray<SKMMKoin_coreModule *> *)plusModule:(SKMMKoin_coreModule *)module __attribute__((swift_name("plus(module:)")));
+- (void)scopeQualifier:(id<SKMMKoin_coreQualifier>)qualifier scopeSet:(void (^)(SKMMKoin_coreScopeDSL *))scopeSet __attribute__((swift_name("scope(qualifier:scopeSet:)")));
+- (void)scopeScopeSet:(void (^)(SKMMKoin_coreScopeDSL *))scopeSet __attribute__((swift_name("scope(scopeSet:)")));
+- (SKMMKotlinPair<SKMMKoin_coreModule *, SKMMKoin_coreInstanceFactory<id> *> *)singleQualifier:(id<SKMMKoin_coreQualifier> _Nullable)qualifier createdAtStart:(BOOL)createdAtStart definition:(id _Nullable (^)(SKMMKoin_coreScope *, SKMMKoin_coreParametersHolder *))definition __attribute__((swift_name("single(qualifier:createdAtStart:definition:)")));
+@property (readonly) SKMMMutableSet<SKMMKoin_coreSingleInstanceFactory<id> *> *eagerInstances __attribute__((swift_name("eagerInstances")));
+@property (readonly) NSString *id __attribute__((swift_name("id")));
+@property (readonly) BOOL isLoaded __attribute__((swift_name("isLoaded")));
+@end;
+
 __attribute__((swift_name("Ktor_httpHttpMessage")))
 @protocol SKMMKtor_httpHttpMessage
 @required
@@ -601,6 +683,194 @@ __attribute__((swift_name("KotlinCoroutineContext")))
 - (id<SKMMKotlinCoroutineContextElement> _Nullable)getKey:(id<SKMMKotlinCoroutineContextKey>)key __attribute__((swift_name("get(key:)")));
 - (id<SKMMKotlinCoroutineContext>)minusKeyKey:(id<SKMMKotlinCoroutineContextKey>)key __attribute__((swift_name("minusKey(key:)")));
 - (id<SKMMKotlinCoroutineContext>)plusContext:(id<SKMMKotlinCoroutineContext>)context __attribute__((swift_name("plus(context:)")));
+@end;
+
+__attribute__((swift_name("Koin_coreLockable")))
+@interface SKMMKoin_coreLockable : SKMMBase
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Koin_coreScope")))
+@interface SKMMKoin_coreScope : SKMMKoin_coreLockable
+- (instancetype)initWithScopeQualifier:(id<SKMMKoin_coreQualifier>)scopeQualifier id:(NSString *)id isRoot:(BOOL)isRoot _koin:(SKMMKoin_coreKoin *)_koin __attribute__((swift_name("init(scopeQualifier:id:isRoot:_koin:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
++ (instancetype)new __attribute__((unavailable));
+- (void)close __attribute__((swift_name("close()")));
+- (id<SKMMKoin_coreQualifier>)component1 __attribute__((swift_name("component1()")));
+- (NSString *)component2 __attribute__((swift_name("component2()")));
+- (BOOL)component3 __attribute__((swift_name("component3()")));
+- (SKMMKoin_coreScope *)doCopyScopeQualifier:(id<SKMMKoin_coreQualifier>)scopeQualifier id:(NSString *)id isRoot:(BOOL)isRoot _koin:(SKMMKoin_coreKoin *)_koin __attribute__((swift_name("doCopy(scopeQualifier:id:isRoot:_koin:)")));
+- (void)declareInstance:(id _Nullable)instance qualifier:(id<SKMMKoin_coreQualifier> _Nullable)qualifier secondaryTypes:(NSArray<id<SKMMKotlinKClass>> *)secondaryTypes allowOverride:(BOOL)allowOverride __attribute__((swift_name("declare(instance:qualifier:secondaryTypes:allowOverride:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (id _Nullable)getClazz:(id<SKMMKotlinKClass>)clazz qualifier:(id<SKMMKoin_coreQualifier> _Nullable)qualifier parameters:(SKMMKoin_coreParametersHolder *(^ _Nullable)(void))parameters __attribute__((swift_name("get(clazz:qualifier:parameters:)")));
+- (id)getQualifier:(id<SKMMKoin_coreQualifier> _Nullable)qualifier parameters:(SKMMKoin_coreParametersHolder *(^ _Nullable)(void))parameters __attribute__((swift_name("get(qualifier:parameters:)")));
+- (NSArray<id> *)getAll __attribute__((swift_name("getAll()")));
+- (NSArray<id> *)getAllClazz:(id<SKMMKotlinKClass>)clazz __attribute__((swift_name("getAll(clazz:)")));
+- (SKMMKoin_coreKoin *)getKoin __attribute__((swift_name("getKoin()")));
+- (id _Nullable)getOrNullClazz:(id<SKMMKotlinKClass>)clazz qualifier:(id<SKMMKoin_coreQualifier> _Nullable)qualifier parameters:(SKMMKoin_coreParametersHolder *(^ _Nullable)(void))parameters __attribute__((swift_name("getOrNull(clazz:qualifier:parameters:)")));
+- (id _Nullable)getOrNullQualifier:(id<SKMMKoin_coreQualifier> _Nullable)qualifier parameters:(SKMMKoin_coreParametersHolder *(^ _Nullable)(void))parameters __attribute__((swift_name("getOrNull(qualifier:parameters:)")));
+- (id)getPropertyKey:(NSString *)key __attribute__((swift_name("getProperty(key:)")));
+- (id)getPropertyKey:(NSString *)key defaultValue:(id)defaultValue __attribute__((swift_name("getProperty(key:defaultValue:)")));
+- (id _Nullable)getPropertyOrNullKey:(NSString *)key __attribute__((swift_name("getPropertyOrNull(key:)")));
+- (SKMMKoin_coreScope *)getScopeScopeID:(NSString *)scopeID __attribute__((swift_name("getScope(scopeID:)")));
+- (id _Nullable)getSource __attribute__((swift_name("getSource()"))) __attribute__((deprecated("No need to use getSource(). You can an use get() directly.")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (id<SKMMKotlinLazy>)injectQualifier:(id<SKMMKoin_coreQualifier> _Nullable)qualifier mode:(SKMMKotlinLazyThreadSafetyMode *)mode parameters:(SKMMKoin_coreParametersHolder *(^ _Nullable)(void))parameters __attribute__((swift_name("inject(qualifier:mode:parameters:)")));
+- (id<SKMMKotlinLazy>)injectOrNullQualifier:(id<SKMMKoin_coreQualifier> _Nullable)qualifier mode:(SKMMKotlinLazyThreadSafetyMode *)mode parameters:(SKMMKoin_coreParametersHolder *(^ _Nullable)(void))parameters __attribute__((swift_name("injectOrNull(qualifier:mode:parameters:)")));
+- (BOOL)isNotClosed __attribute__((swift_name("isNotClosed()")));
+- (void)linkToScopes:(SKMMKotlinArray<SKMMKoin_coreScope *> *)scopes __attribute__((swift_name("linkTo(scopes:)")));
+- (void)refreshScopeInstanceClazz:(id<SKMMKotlinKClass>)clazz qualifier:(id<SKMMKoin_coreQualifier> _Nullable)qualifier instance:(id)instance __attribute__((swift_name("refreshScopeInstance(clazz:qualifier:instance:)")));
+- (void)registerCallbackCallback:(id<SKMMKoin_coreScopeCallback>)callback __attribute__((swift_name("registerCallback(callback:)")));
+- (NSString *)description __attribute__((swift_name("description()")));
+- (void)unlinkScopes:(SKMMKotlinArray<SKMMKoin_coreScope *> *)scopes __attribute__((swift_name("unlink(scopes:)")));
+@property (readonly) NSMutableArray<SKMMKoin_coreParametersHolder *> *_parameterStack __attribute__((swift_name("_parameterStack")));
+@property id _Nullable _source __attribute__((swift_name("_source")));
+@property (readonly) BOOL closed __attribute__((swift_name("closed")));
+@property (readonly) NSString *id __attribute__((swift_name("id")));
+@property (readonly) BOOL isRoot __attribute__((swift_name("isRoot")));
+@property (readonly) SKMMKoin_coreLogger *logger __attribute__((swift_name("logger")));
+@property (readonly) id<SKMMKoin_coreQualifier> scopeQualifier __attribute__((swift_name("scopeQualifier")));
+@end;
+
+__attribute__((swift_name("Koin_coreKoinScopeComponent")))
+@protocol SKMMKoin_coreKoinScopeComponent <SKMMKoin_coreKoinComponent>
+@required
+- (void)closeScope __attribute__((swift_name("closeScope()")));
+@property (readonly) SKMMKoin_coreScope *scope __attribute__((swift_name("scope")));
+@end;
+
+__attribute__((swift_name("Koin_coreQualifier")))
+@protocol SKMMKoin_coreQualifier
+@required
+@property (readonly) NSString *value __attribute__((swift_name("value")));
+@end;
+
+__attribute__((swift_name("KotlinKDeclarationContainer")))
+@protocol SKMMKotlinKDeclarationContainer
+@required
+@end;
+
+__attribute__((swift_name("KotlinKAnnotatedElement")))
+@protocol SKMMKotlinKAnnotatedElement
+@required
+@end;
+
+__attribute__((swift_name("KotlinKClassifier")))
+@protocol SKMMKotlinKClassifier
+@required
+@end;
+
+__attribute__((swift_name("KotlinKClass")))
+@protocol SKMMKotlinKClass <SKMMKotlinKDeclarationContainer, SKMMKotlinKAnnotatedElement, SKMMKotlinKClassifier>
+@required
+- (BOOL)isInstanceValue:(id _Nullable)value __attribute__((swift_name("isInstance(value:)")));
+@property (readonly) NSString * _Nullable qualifiedName __attribute__((swift_name("qualifiedName")));
+@property (readonly) NSString * _Nullable simpleName __attribute__((swift_name("simpleName")));
+@end;
+
+__attribute__((swift_name("Koin_coreParametersHolder")))
+@interface SKMMKoin_coreParametersHolder : SKMMBase
+- (instancetype)initWith_values:(NSMutableArray<id> *)_values __attribute__((swift_name("init(_values:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) SKMMKoin_coreParametersHolderCompanion *companion __attribute__((swift_name("companion")));
+- (SKMMKoin_coreParametersHolder *)addValue:(id)value __attribute__((swift_name("add(value:)")));
+- (id _Nullable)component1 __attribute__((swift_name("component1()")));
+- (id _Nullable)component2 __attribute__((swift_name("component2()")));
+- (id _Nullable)component3 __attribute__((swift_name("component3()")));
+- (id _Nullable)component4 __attribute__((swift_name("component4()")));
+- (id _Nullable)component5 __attribute__((swift_name("component5()")));
+- (id _Nullable)elementAtI:(int32_t)i clazz:(id<SKMMKotlinKClass>)clazz __attribute__((swift_name("elementAt(i:clazz:)")));
+- (id)get __attribute__((swift_name("get()")));
+- (id _Nullable)getI:(int32_t)i __attribute__((swift_name("get(i:)")));
+- (id _Nullable)getOrNull __attribute__((swift_name("getOrNull()")));
+- (id _Nullable)getOrNullClazz:(id<SKMMKotlinKClass>)clazz __attribute__((swift_name("getOrNull(clazz:)")));
+- (SKMMKoin_coreParametersHolder *)insertIndex:(int32_t)index value:(id)value __attribute__((swift_name("insert(index:value:)")));
+- (BOOL)isEmpty __attribute__((swift_name("isEmpty()")));
+- (BOOL)isNotEmpty __attribute__((swift_name("isNotEmpty()")));
+- (void)setI:(int32_t)i t:(id _Nullable)t __attribute__((swift_name("set(i:t:)")));
+- (int32_t)size __attribute__((swift_name("size()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSArray<id> *values __attribute__((swift_name("values")));
+@end;
+
+__attribute__((swift_name("KotlinLazy")))
+@protocol SKMMKotlinLazy
+@required
+- (BOOL)isInitialized __attribute__((swift_name("isInitialized()")));
+@property (readonly) id _Nullable value __attribute__((swift_name("value")));
+@end;
+
+__attribute__((swift_name("KotlinComparable")))
+@protocol SKMMKotlinComparable
+@required
+- (int32_t)compareToOther:(id _Nullable)other __attribute__((swift_name("compareTo(other:)")));
+@end;
+
+__attribute__((swift_name("KotlinEnum")))
+@interface SKMMKotlinEnum<E> : SKMMBase <SKMMKotlinComparable>
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) SKMMKotlinEnumCompanion *companion __attribute__((swift_name("companion")));
+- (int32_t)compareToOther:(E)other __attribute__((swift_name("compareTo(other:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString *name __attribute__((swift_name("name")));
+@property (readonly) int32_t ordinal __attribute__((swift_name("ordinal")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("KotlinLazyThreadSafetyMode")))
+@interface SKMMKotlinLazyThreadSafetyMode : SKMMKotlinEnum<SKMMKotlinLazyThreadSafetyMode *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly) SKMMKotlinLazyThreadSafetyMode *synchronized __attribute__((swift_name("synchronized")));
+@property (class, readonly) SKMMKotlinLazyThreadSafetyMode *publication __attribute__((swift_name("publication")));
+@property (class, readonly) SKMMKotlinLazyThreadSafetyMode *none __attribute__((swift_name("none")));
++ (SKMMKotlinArray<SKMMKotlinLazyThreadSafetyMode *> *)values __attribute__((swift_name("values()")));
+@end;
+
+__attribute__((swift_name("Koin_coreLogger")))
+@interface SKMMKoin_coreLogger : SKMMBase
+- (instancetype)initWithLevel:(SKMMKoin_coreLevel *)level __attribute__((swift_name("init(level:)"))) __attribute__((objc_designated_initializer));
+- (void)debugMsg:(NSString *)msg __attribute__((swift_name("debug(msg:)")));
+- (void)errorMsg:(NSString *)msg __attribute__((swift_name("error(msg:)")));
+- (void)infoMsg:(NSString *)msg __attribute__((swift_name("info(msg:)")));
+- (BOOL)isAtLvl:(SKMMKoin_coreLevel *)lvl __attribute__((swift_name("isAt(lvl:)")));
+- (void)logLvl:(SKMMKoin_coreLevel *)lvl msg:(NSString *(^)(void))msg __attribute__((swift_name("log(lvl:msg:)")));
+- (void)logLevel:(SKMMKoin_coreLevel *)level msg:(NSString *)msg __attribute__((swift_name("log(level:msg:)")));
+@property SKMMKoin_coreLevel *level __attribute__((swift_name("level")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Koin_coreInstanceRegistry")))
+@interface SKMMKoin_coreInstanceRegistry : SKMMBase
+- (instancetype)initWith_koin:(SKMMKoin_coreKoin *)_koin __attribute__((swift_name("init(_koin:)"))) __attribute__((objc_designated_initializer));
+- (void)saveMappingAllowOverride:(BOOL)allowOverride mapping:(NSString *)mapping factory:(SKMMKoin_coreInstanceFactory<id> *)factory logWarning:(BOOL)logWarning __attribute__((swift_name("saveMapping(allowOverride:mapping:factory:logWarning:)")));
+- (int32_t)size __attribute__((swift_name("size()")));
+@property (readonly) SKMMKoin_coreKoin *_koin __attribute__((swift_name("_koin")));
+@property (readonly) NSDictionary<NSString *, SKMMKoin_coreInstanceFactory<id> *> *instances __attribute__((swift_name("instances")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Koin_corePropertyRegistry")))
+@interface SKMMKoin_corePropertyRegistry : SKMMBase
+- (instancetype)initWith_koin:(SKMMKoin_coreKoin *)_koin __attribute__((swift_name("init(_koin:)"))) __attribute__((objc_designated_initializer));
+- (void)close __attribute__((swift_name("close()")));
+- (void)deletePropertyKey:(NSString *)key __attribute__((swift_name("deleteProperty(key:)")));
+- (id _Nullable)getPropertyKey:(NSString *)key __attribute__((swift_name("getProperty(key:)")));
+- (void)savePropertiesProperties:(NSDictionary<NSString *, id> *)properties __attribute__((swift_name("saveProperties(properties:)")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Koin_coreScopeRegistry")))
+@interface SKMMKoin_coreScopeRegistry : SKMMBase
+- (instancetype)initWith_koin:(SKMMKoin_coreKoin *)_koin __attribute__((swift_name("init(_koin:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) SKMMKoin_coreScopeRegistryCompanion *companion __attribute__((swift_name("companion")));
+- (void)loadScopesModules:(NSSet<SKMMKoin_coreModule *> *)modules __attribute__((swift_name("loadScopes(modules:)")));
+@property (readonly) SKMMKoin_coreScope *rootScope __attribute__((swift_name("rootScope")));
+@property (readonly) NSSet<id<SKMMKoin_coreQualifier>> *scopeDefinitions __attribute__((swift_name("scopeDefinitions")));
 @end;
 
 __attribute__((swift_name("KotlinIterator")))
@@ -669,6 +939,56 @@ __attribute__((swift_name("Kotlinx_serialization_coreDecoder")))
 - (int16_t)decodeShort __attribute__((swift_name("decodeShort()")));
 - (NSString *)decodeString __attribute__((swift_name("decodeString()")));
 @property (readonly) SKMMKotlinx_serialization_coreSerializersModule *serializersModule __attribute__((swift_name("serializersModule")));
+@end;
+
+__attribute__((swift_name("Koin_coreInstanceFactory")))
+@interface SKMMKoin_coreInstanceFactory<T> : SKMMKoin_coreLockable
+- (instancetype)initWithBeanDefinition:(SKMMKoin_coreBeanDefinition<T> *)beanDefinition __attribute__((swift_name("init(beanDefinition:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
++ (instancetype)new __attribute__((unavailable));
+@property (class, readonly, getter=companion) SKMMKoin_coreInstanceFactoryCompanion *companion __attribute__((swift_name("companion")));
+- (T _Nullable)createContext:(SKMMKoin_coreInstanceContext *)context __attribute__((swift_name("create(context:)")));
+- (void)dropScope:(SKMMKoin_coreScope * _Nullable)scope __attribute__((swift_name("drop(scope:)")));
+- (void)dropAll __attribute__((swift_name("dropAll()")));
+- (T _Nullable)getContext:(SKMMKoin_coreInstanceContext *)context __attribute__((swift_name("get(context:)")));
+- (BOOL)isCreatedContext:(SKMMKoin_coreInstanceContext * _Nullable)context __attribute__((swift_name("isCreated(context:)")));
+@property (readonly) SKMMKoin_coreBeanDefinition<T> *beanDefinition __attribute__((swift_name("beanDefinition")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("KotlinPair")))
+@interface SKMMKotlinPair<__covariant A, __covariant B> : SKMMBase
+- (instancetype)initWithFirst:(A _Nullable)first second:(B _Nullable)second __attribute__((swift_name("init(first:second:)"))) __attribute__((objc_designated_initializer));
+- (A _Nullable)component1 __attribute__((swift_name("component1()")));
+- (B _Nullable)component2 __attribute__((swift_name("component2()")));
+- (SKMMKotlinPair<A, B> *)doCopyFirst:(A _Nullable)first second:(B _Nullable)second __attribute__((swift_name("doCopy(first:second:)")));
+- (BOOL)equalsOther:(id _Nullable)other __attribute__((swift_name("equals(other:)")));
+- (int32_t)hashCode __attribute__((swift_name("hashCode()")));
+- (NSString *)toString __attribute__((swift_name("toString()")));
+@property (readonly) A _Nullable first __attribute__((swift_name("first")));
+@property (readonly) B _Nullable second __attribute__((swift_name("second")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Koin_coreScopeDSL")))
+@interface SKMMKoin_coreScopeDSL : SKMMBase
+- (instancetype)initWithScopeQualifier:(id<SKMMKoin_coreQualifier>)scopeQualifier module:(SKMMKoin_coreModule *)module __attribute__((swift_name("init(scopeQualifier:module:)"))) __attribute__((objc_designated_initializer));
+- (SKMMKotlinPair<SKMMKoin_coreModule *, SKMMKoin_coreInstanceFactory<id> *> *)factoryQualifier:(id<SKMMKoin_coreQualifier> _Nullable)qualifier definition:(id _Nullable (^)(SKMMKoin_coreScope *, SKMMKoin_coreParametersHolder *))definition __attribute__((swift_name("factory(qualifier:definition:)")));
+- (SKMMKotlinPair<SKMMKoin_coreModule *, SKMMKoin_coreInstanceFactory<id> *> *)scopedQualifier:(id<SKMMKoin_coreQualifier> _Nullable)qualifier definition:(id _Nullable (^)(SKMMKoin_coreScope *, SKMMKoin_coreParametersHolder *))definition __attribute__((swift_name("scoped(qualifier:definition:)")));
+- (SKMMKotlinPair<SKMMKoin_coreModule *, SKMMKoin_coreInstanceFactory<id> *> *)singleQualifier:(id<SKMMKoin_coreQualifier> _Nullable)qualifier definition:(id _Nullable (^)(SKMMKoin_coreScope *, SKMMKoin_coreParametersHolder *))definition __attribute__((swift_name("single(qualifier:definition:)"))) __attribute__((unavailable("Can't use Single in a scope. Use Scoped instead")));
+@property (readonly) SKMMKoin_coreModule *module __attribute__((swift_name("module")));
+@property (readonly) id<SKMMKoin_coreQualifier> scopeQualifier __attribute__((swift_name("scopeQualifier")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Koin_coreSingleInstanceFactory")))
+@interface SKMMKoin_coreSingleInstanceFactory<T> : SKMMKoin_coreInstanceFactory<T>
+- (instancetype)initWithBeanDefinition:(SKMMKoin_coreBeanDefinition<T> *)beanDefinition __attribute__((swift_name("init(beanDefinition:)"))) __attribute__((objc_designated_initializer));
+- (T _Nullable)createContext:(SKMMKoin_coreInstanceContext *)context __attribute__((swift_name("create(context:)")));
+- (void)dropScope:(SKMMKoin_coreScope * _Nullable)scope __attribute__((swift_name("drop(scope:)")));
+- (void)dropAll __attribute__((swift_name("dropAll()")));
+- (T _Nullable)getContext:(SKMMKoin_coreInstanceContext *)context __attribute__((swift_name("get(context:)")));
+- (BOOL)isCreatedContext:(SKMMKoin_coreInstanceContext * _Nullable)context __attribute__((swift_name("isCreated(context:)")));
 @end;
 
 __attribute__((swift_name("Ktor_utilsStringValues")))
@@ -867,12 +1187,6 @@ __attribute__((swift_name("Ktor_ioByteReadChannel")))
 @property (readonly) int64_t totalBytesRead __attribute__((swift_name("totalBytesRead")));
 @end;
 
-__attribute__((swift_name("KotlinComparable")))
-@protocol SKMMKotlinComparable
-@required
-- (int32_t)compareToOther:(id _Nullable)other __attribute__((swift_name("compareTo(other:)")));
-@end;
-
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Ktor_utilsGMTDate")))
 @interface SKMMKtor_utilsGMTDate : SKMMBase <SKMMKotlinComparable>
@@ -946,6 +1260,53 @@ __attribute__((swift_name("KotlinCoroutineContextKey")))
 @required
 @end;
 
+__attribute__((swift_name("Koin_coreScopeCallback")))
+@protocol SKMMKoin_coreScopeCallback
+@required
+- (void)onScopeCloseScope:(SKMMKoin_coreScope *)scope __attribute__((swift_name("onScopeClose(scope:)")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Koin_coreParametersHolder.Companion")))
+@interface SKMMKoin_coreParametersHolderCompanion : SKMMBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) SKMMKoin_coreParametersHolderCompanion *shared __attribute__((swift_name("shared")));
+@property (readonly) int32_t MAX_PARAMS __attribute__((swift_name("MAX_PARAMS")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("KotlinEnumCompanion")))
+@interface SKMMKotlinEnumCompanion : SKMMBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) SKMMKotlinEnumCompanion *shared __attribute__((swift_name("shared")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Koin_coreLevel")))
+@interface SKMMKoin_coreLevel : SKMMKotlinEnum<SKMMKoin_coreLevel *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly) SKMMKoin_coreLevel *debug __attribute__((swift_name("debug")));
+@property (class, readonly) SKMMKoin_coreLevel *info __attribute__((swift_name("info")));
+@property (class, readonly) SKMMKoin_coreLevel *error __attribute__((swift_name("error")));
+@property (class, readonly) SKMMKoin_coreLevel *none __attribute__((swift_name("none")));
++ (SKMMKotlinArray<SKMMKoin_coreLevel *> *)values __attribute__((swift_name("values()")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Koin_coreScopeRegistry.Companion")))
+@interface SKMMKoin_coreScopeRegistryCompanion : SKMMBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) SKMMKoin_coreScopeRegistryCompanion *shared __attribute__((swift_name("shared")));
+@end;
+
 __attribute__((swift_name("Kotlinx_serialization_coreCompositeEncoder")))
 @protocol SKMMKotlinx_serialization_coreCompositeEncoder
 @required
@@ -1005,6 +1366,50 @@ __attribute__((swift_name("Kotlinx_serialization_coreCompositeDecoder")))
 - (NSString *)decodeStringElementDescriptor:(id<SKMMKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("decodeStringElement(descriptor:index:)")));
 - (void)endStructureDescriptor:(id<SKMMKotlinx_serialization_coreSerialDescriptor>)descriptor __attribute__((swift_name("endStructure(descriptor:)")));
 @property (readonly) SKMMKotlinx_serialization_coreSerializersModule *serializersModule __attribute__((swift_name("serializersModule")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Koin_coreBeanDefinition")))
+@interface SKMMKoin_coreBeanDefinition<T> : SKMMBase
+- (instancetype)initWithScopeQualifier:(id<SKMMKoin_coreQualifier>)scopeQualifier primaryType:(id<SKMMKotlinKClass>)primaryType qualifier:(id<SKMMKoin_coreQualifier> _Nullable)qualifier definition:(T _Nullable (^)(SKMMKoin_coreScope *, SKMMKoin_coreParametersHolder *))definition kind:(SKMMKoin_coreKind *)kind secondaryTypes:(NSArray<id<SKMMKotlinKClass>> *)secondaryTypes __attribute__((swift_name("init(scopeQualifier:primaryType:qualifier:definition:kind:secondaryTypes:)"))) __attribute__((objc_designated_initializer));
+- (id<SKMMKoin_coreQualifier>)component1 __attribute__((swift_name("component1()")));
+- (id<SKMMKotlinKClass>)component2 __attribute__((swift_name("component2()")));
+- (id<SKMMKoin_coreQualifier> _Nullable)component3 __attribute__((swift_name("component3()")));
+- (T _Nullable (^)(SKMMKoin_coreScope *, SKMMKoin_coreParametersHolder *))component4 __attribute__((swift_name("component4()")));
+- (SKMMKoin_coreKind *)component5 __attribute__((swift_name("component5()")));
+- (NSArray<id<SKMMKotlinKClass>> *)component6 __attribute__((swift_name("component6()")));
+- (SKMMKoin_coreBeanDefinition<T> *)doCopyScopeQualifier:(id<SKMMKoin_coreQualifier>)scopeQualifier primaryType:(id<SKMMKotlinKClass>)primaryType qualifier:(id<SKMMKoin_coreQualifier> _Nullable)qualifier definition:(T _Nullable (^)(SKMMKoin_coreScope *, SKMMKoin_coreParametersHolder *))definition kind:(SKMMKoin_coreKind *)kind secondaryTypes:(NSArray<id<SKMMKotlinKClass>> *)secondaryTypes __attribute__((swift_name("doCopy(scopeQualifier:primaryType:qualifier:definition:kind:secondaryTypes:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (BOOL)hasTypeClazz:(id<SKMMKotlinKClass>)clazz __attribute__((swift_name("hasType(clazz:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (BOOL)isClazz:(id<SKMMKotlinKClass>)clazz qualifier:(id<SKMMKoin_coreQualifier> _Nullable)qualifier scopeDefinition:(id<SKMMKoin_coreQualifier>)scopeDefinition __attribute__((swift_name("is(clazz:qualifier:scopeDefinition:)")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property SKMMKoin_coreCallbacks<T> *callbacks __attribute__((swift_name("callbacks")));
+@property (readonly) T _Nullable (^definition)(SKMMKoin_coreScope *, SKMMKoin_coreParametersHolder *) __attribute__((swift_name("definition")));
+@property (readonly) SKMMKoin_coreKind *kind __attribute__((swift_name("kind")));
+@property (readonly) id<SKMMKotlinKClass> primaryType __attribute__((swift_name("primaryType")));
+@property id<SKMMKoin_coreQualifier> _Nullable qualifier __attribute__((swift_name("qualifier")));
+@property (readonly) id<SKMMKoin_coreQualifier> scopeQualifier __attribute__((swift_name("scopeQualifier")));
+@property NSArray<id<SKMMKotlinKClass>> *secondaryTypes __attribute__((swift_name("secondaryTypes")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Koin_coreInstanceFactoryCompanion")))
+@interface SKMMKoin_coreInstanceFactoryCompanion : SKMMBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) SKMMKoin_coreInstanceFactoryCompanion *shared __attribute__((swift_name("shared")));
+@property (readonly) NSString *ERROR_SEPARATOR __attribute__((swift_name("ERROR_SEPARATOR")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Koin_coreInstanceContext")))
+@interface SKMMKoin_coreInstanceContext : SKMMBase
+- (instancetype)initWithKoin:(SKMMKoin_coreKoin *)koin scope:(SKMMKoin_coreScope *)scope parameters:(SKMMKoin_coreParametersHolder * _Nullable)parameters __attribute__((swift_name("init(koin:scope:parameters:)"))) __attribute__((objc_designated_initializer));
+@property (readonly) SKMMKoin_coreKoin *koin __attribute__((swift_name("koin")));
+@property (readonly) SKMMKoin_coreParametersHolder * _Nullable parameters __attribute__((swift_name("parameters")));
+@property (readonly) SKMMKoin_coreScope *scope __attribute__((swift_name("scope")));
 @end;
 
 __attribute__((swift_name("KotlinMapEntry")))
@@ -1276,18 +1681,6 @@ __attribute__((swift_name("Ktor_utilsGMTDate.Companion")))
 @property (readonly) SKMMKtor_utilsGMTDate *START __attribute__((swift_name("START")));
 @end;
 
-__attribute__((swift_name("KotlinEnum")))
-@interface SKMMKotlinEnum<E> : SKMMBase <SKMMKotlinComparable>
-- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) SKMMKotlinEnumCompanion *companion __attribute__((swift_name("companion")));
-- (int32_t)compareToOther:(E)other __attribute__((swift_name("compareTo(other:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) NSString *name __attribute__((swift_name("name")));
-@property (readonly) int32_t ordinal __attribute__((swift_name("ordinal")));
-@end;
-
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Ktor_utilsWeekDay")))
 @interface SKMMKtor_utilsWeekDay : SKMMKotlinEnum<SKMMKtor_utilsWeekDay *>
@@ -1419,27 +1812,28 @@ __attribute__((swift_name("Kotlinx_serialization_coreSerializersModuleCollector"
 - (void)polymorphicDefaultSerializerBaseClass:(id<SKMMKotlinKClass>)baseClass defaultSerializerProvider:(id<SKMMKotlinx_serialization_coreSerializationStrategy> _Nullable (^)(id))defaultSerializerProvider __attribute__((swift_name("polymorphicDefaultSerializer(baseClass:defaultSerializerProvider:)")));
 @end;
 
-__attribute__((swift_name("KotlinKDeclarationContainer")))
-@protocol SKMMKotlinKDeclarationContainer
-@required
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Koin_coreKind")))
+@interface SKMMKoin_coreKind : SKMMKotlinEnum<SKMMKoin_coreKind *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly) SKMMKoin_coreKind *singleton __attribute__((swift_name("singleton")));
+@property (class, readonly) SKMMKoin_coreKind *factory __attribute__((swift_name("factory")));
+@property (class, readonly) SKMMKoin_coreKind *scoped __attribute__((swift_name("scoped")));
++ (SKMMKotlinArray<SKMMKoin_coreKind *> *)values __attribute__((swift_name("values()")));
 @end;
 
-__attribute__((swift_name("KotlinKAnnotatedElement")))
-@protocol SKMMKotlinKAnnotatedElement
-@required
-@end;
-
-__attribute__((swift_name("KotlinKClassifier")))
-@protocol SKMMKotlinKClassifier
-@required
-@end;
-
-__attribute__((swift_name("KotlinKClass")))
-@protocol SKMMKotlinKClass <SKMMKotlinKDeclarationContainer, SKMMKotlinKAnnotatedElement, SKMMKotlinKClassifier>
-@required
-- (BOOL)isInstanceValue:(id _Nullable)value __attribute__((swift_name("isInstance(value:)")));
-@property (readonly) NSString * _Nullable qualifiedName __attribute__((swift_name("qualifiedName")));
-@property (readonly) NSString * _Nullable simpleName __attribute__((swift_name("simpleName")));
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Koin_coreCallbacks")))
+@interface SKMMKoin_coreCallbacks<T> : SKMMBase
+- (instancetype)initWithOnClose:(void (^ _Nullable)(T _Nullable))onClose __attribute__((swift_name("init(onClose:)"))) __attribute__((objc_designated_initializer));
+- (void (^ _Nullable)(T _Nullable))component1 __attribute__((swift_name("component1()")));
+- (SKMMKoin_coreCallbacks<T> *)doCopyOnClose:(void (^ _Nullable)(T _Nullable))onClose __attribute__((swift_name("doCopy(onClose:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) void (^ _Nullable onClose)(T _Nullable) __attribute__((swift_name("onClose")));
 @end;
 
 __attribute__((swift_name("Ktor_client_coreHttpClientEngine")))
@@ -1720,15 +2114,6 @@ __attribute__((swift_name("Ktor_ioByteReadPacket.Companion")))
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) SKMMKtor_ioByteReadPacketCompanion *shared __attribute__((swift_name("shared")));
 @property (readonly) SKMMKtor_ioByteReadPacket *Empty __attribute__((swift_name("Empty")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("KotlinEnumCompanion")))
-@interface SKMMKotlinEnumCompanion : SKMMBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) SKMMKotlinEnumCompanion *shared __attribute__((swift_name("shared")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
